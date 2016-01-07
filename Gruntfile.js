@@ -15,6 +15,7 @@ module.exports = function (grunt) {
   grunt.registerTask('builddev', [
     'jshint',
     'browserify:build',
+    'browserify:build_basic',
     'postcss:build',
     'copy:build'
   ]);

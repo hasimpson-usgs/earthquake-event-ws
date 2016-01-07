@@ -43,6 +43,11 @@ var browserify = {
     dest: config.build + '/' + config.src + '/htdocs/js/search.js'
   },
 
+  build_basic: {
+    src: config.src + '/htdocs/js/search_basic.js',
+    dest: config.build + '/' + config.src + '/htdocs/js/search_basic.js'
+  },
+
   test: {
     src: config.test + '/test.js',
     dest: config.build + '/' + config.test + '/test.js',
